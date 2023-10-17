@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'msalchat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E16BC9D5D7664B59962B59AA0028455A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_237E74E4A3CC41B8AC702626F619DA8A }}
           package: .
