@@ -9,7 +9,7 @@ export const msalConfig: Configuration = {
   auth: {
     clientId: "da86d403-135f-46c1-a492-7595f7601baf",
     authority: "https://login.microsoftonline.com/consumers",
-    redirectUri: "https://yellow-bay-0ec1d1f10.3.azurestaticapps.net"
+    redirectUri: "https://yellow-bay-0ec1d1f10.3.azurestaticapps.net/"
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
