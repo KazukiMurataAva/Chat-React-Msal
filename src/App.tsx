@@ -8,7 +8,7 @@ import ChatHistory from './components/ChatHistory';
 
 const domain = "https://api-by-node.azurewebsites.net";
 
-
+//コメント追加しました
 const ChatComponent = () => {
   const [inputText, setInputText] = useState('');
   const [chatHistory, setChatHistory] = useState<{ id: number; message: string }[]>([]);
